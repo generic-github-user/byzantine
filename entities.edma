@@ -1,0 +1,20 @@
+Vehicle
+      spaceship
+            environment: space
+            Engines
+                  Consume
+                        Fuel
+            Weapons
+            Crew
+                  people
+            equipment
+                  Computers
+            supplies
+                  food
+                  water
+                  fuel
+                  medicine
+      ship
+            env: water
+      plane
+            env: air/atmosphere
