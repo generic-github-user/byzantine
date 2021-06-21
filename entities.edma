@@ -18,3 +18,29 @@ Vehicle
             env: water
       plane
             env: air/atmosphere
+Person
+      plural: people
+      species
+      age
+      weight
+            $generator
+                  dist:norm
+      height
+            $generator
+                  dist: norm
+                  mean: 180cm
+                  stdev: 10cm
+      intelligence
+            $generator
+                  dist: norm
+                  mean: 100
+                  stdev: 20
+      relationships
+            family
+                  parents
+                  siblings
+                        sisters
+                        brothers
+                  children
+                  cousins
+            friends
